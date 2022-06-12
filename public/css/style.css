@@ -1,0 +1,37 @@
+.card-div{
+    width:50%;
+    margin: 50px auto;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+}
+#quotes{
+    width:80%;
+}
+.next{
+    cursor: pointer;
+}
+#show_quotes{
+font-weight: bold;
+}
+@media screen and (max-width: 680px) {
+    .card-div{
+        width:90%;
+    }
+  }
+
+@media screen and (max-width: 980px) {
+    .card-div{
+        width:80%;
+    }
+  }
+
+  svg:hover{
+      border-radius: 100%;
+      border:2px solid white;
+      background: aqua;
+      padding:3px;
+      transition:0.5s;
+  }
